@@ -38,7 +38,7 @@ System.out.print("Solamente numeros de favor");
   
 
 
-static void datos(){
+static void datos() throws IOException{
 
 BufferedReader entrada=new  BufferedReader(new InputStreamReader(System.in));
   
@@ -74,7 +74,7 @@ i++;
   static void proceso(int numeros[]){
 
 
-JOPtionPane.showMessageDialog(null,"El resultado de la suma es:"+(numeros[0]+numeros[1]));
+JOptionPane.showMessageDialog(null,"El resultado de la suma es:"+(numeros[0]+numeros[1]));
 
     
   }
