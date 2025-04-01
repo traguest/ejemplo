@@ -1,6 +1,7 @@
 import java.io.*;
 
 
+import javax.swing.*;
 
 
 
@@ -50,7 +51,7 @@ int[] numeros=new int[2];
 while(i<2){
 
 
-System.out.print("Dame un numero de favor?");
+System.out.print("Dame un numero de favor?:");
 v=entrada.readLine();
 
 estado=validar(v);
@@ -66,16 +67,22 @@ i++;
   
 }
 
-  
-
-  
-
-
-  
+    proceso(numeros);
 }
 
+
+  static void proceso(int numeros[]){
+
+
+JOPtionPane.showMessageDialog(null,"El resultado de la suma es:"+(numeros[0]+numeros[1]));
+
+    
+  }
+
+
+
   
-  public static void main(String[}args) throws IOException{
+  public static void main(String[]args) throws IOException{
 datos();
 
 
