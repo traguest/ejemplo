@@ -21,7 +21,7 @@ if(!(v.charAt(i)>=48 &&   v.charAt(i)<58)){
 
 estado=true;
 
-System.out.print("Solamente numeros de favor");
+JOptionPane.showMessageDialog("Solamente numeros de favor");
   
   break;
 }
