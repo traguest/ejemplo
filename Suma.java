@@ -78,7 +78,6 @@ i++;
 
 JOptionPane.showMessageDialog(null,"El resultado de la suma es:"+(numeros[0]+numeros[1]));
 
-System.out.println("este es una modificacion de esto");
     
   }
 
